@@ -1,0 +1,107 @@
+﻿    {
+        "categories": [
+            {
+                "cid": 1,
+                "title": "首页",
+                "url": "http://moeimg.net/page/{page:1}"
+            },
+            {
+                "cid": 2,
+                "title": "エロ画像",
+                "url": "http://moeimg.net/category/%E3%82%A8%E3%83%AD%E7%94%BB%E5%83%8F/page/{page:1}"
+            },
+            {
+                "cid": 3,
+                "title": "非エロ・微エロ画像",
+                "url": "http://moeimg.net/category/%E9%9D%9E%E3%82%A8%E3%83%AD%E3%83%BB%E5%BE%AE%E3%82%A8%E3%83%AD%E7%94%BB%E5%83%8F/page/{page:1}"
+            },
+            {
+                "cid": 4,
+                "title": "ネタ画像",
+                "url": "http://moeimg.net/category/%E3%83%8D%E3%82%BF%E7%94%BB%E5%83%8F/page/{page:1}"
+            }
+        ],
+        "cookie": "",
+        "flag": "noRating",
+        "galleryRule": {
+            "commentRule": {
+                "author": {
+                    "fun": "html",
+                    "selector": "div.comment-author > cite"
+                },
+                "avatar": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "div.comment-author > img"
+                },
+                "content": {
+                    "selector": "div.comment-body > p"
+                },
+                "datetime": {
+                    "fun": "html",
+                    "selector": "div.comment-meta > a"
+                },
+                "item": {
+                    "selector": "ol.commentlist > li.comment"
+                }
+            },
+            "pictureRule": {
+                "item": {
+                    "selector": "div.box > a"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "href",
+                    "selector": "this"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "href",
+                    "selector": "this"
+                }
+            }
+        },
+        "galleryUrl": "http://moeimg.net/{idCode:}.html",
+        "gid": 0,
+        "index": 0,
+        "indexRule": {
+            "category": {
+                "fun": "html",
+                "selector": "div.blog_info > ul > li.cat > a"
+            },
+            "cover": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "div.more-field > div.box > a"
+            },
+            "datetime": {
+                "fun": "html",
+                "regex": "(\\d{4}.\\d{2}.\\d{2}. [0-9:]+)",
+                "selector": "div.blog_info > ul > li.cal"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "/(\\d+).html",
+                "selector": "h2 > a"
+            },
+            "item": {
+                "selector": "div.post"
+            },
+            "tags": {
+                "fun": "html",
+                "selector": "div.blog_info > ul > li.tag > a[rel='tag']"
+            },
+            "title": {
+                "fun": "attr",
+                "param": "title",
+                "selector": "h2 > a"
+            }
+        },
+        "indexUrl": "http://moeimg.net/page/{page:1}",
+        "isGrid": false,
+        "searchUrl": "http://moeimg.net/page/{page:1}?cat=0&s={keyword:}&submit=%E6%A4%9C%E7%B4%A2",
+        "sid": 8,
+        "title": "二次萌エロ画像ブログ",
+        "versionCode": 0
+    }

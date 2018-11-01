@@ -1,0 +1,59 @@
+﻿    {
+        "cookie": "",
+        "flag": "noRating|noTag",
+        "galleryRule": {
+            "pictureRule": {
+                "item": {
+                    "selector": "div#entry > ul > li:not([class])"
+                },
+                "thumbnail": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "img"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "src",
+                    "selector": "img"
+                }
+            }
+        },
+        "galleryUrl": "http://nijiero-ch.com/{idCode:}.html",
+        "gid": 0,
+        "index": 0,
+        "indexRule": {
+            "category": {
+                "fun": "html",
+                "selector": "div.postDate > dl:first-child > dd > a"
+            },
+            "cover": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "div.postImage > img"
+            },
+            "datetime": {
+                "fun": "html",
+                "selector": "div.postDate > dl:nth-child(2) > dd"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "com/(.*).html",
+                "selector": "a"
+            },
+            "item": {
+                "selector": "section>div.post:not(.add) , #mainContent>div.post:not(.add)"
+            },
+            "title": {
+                "fun": "html",
+                "selector": "section > h1 > a"
+            }
+        },
+        "indexUrl": "http://nijiero-ch.com/page/{page:1}",
+        "isGrid": false,
+        "loginUrl": "http://nijiero-ch.com/wp-login.php",
+        "searchUrl": "http://nijiero-ch.com/?s={keyword:}&paged={page:1}",
+        "sid": 9,
+        "title": "二次元のエッチな画像",
+        "versionCode": 0
+    }

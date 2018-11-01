@@ -1,0 +1,83 @@
+﻿    {
+        "categories": [
+            {
+                "cid": 1,
+                "title": "最新",
+                "url": "http://hentaidrive.com/hentai/episodes/new-release/page/{page:1}/"
+            },
+            {
+                "cid": 2,
+                "title": "英语字幕",
+                "url": "http://hentaidrive.com/hentai/episodes/english-subbed/page/{page:1}/"
+            },
+            {
+                "cid": 3,
+                "title": "无码",
+                "url": "http://hentaidrive.com/hentai/episodes/uncensored/page/{page:1}/"
+            }
+        ],
+        "cookie": "",
+        "flag": "noRating",
+        "galleryRule": {
+            "description": {
+                "fun": "html",
+                "selector": "div.seriesmeta"
+            },
+            "videoRule": {
+                "content": {
+                    "regex": "(http[^\"']*?\\.(?:mp4|webm|ogg))",
+                    "selector": "script,iframe"
+                },
+                "item": {
+                    "regex": "\"http[^\"']*?\\.(?:mp4|webm|ogg)\"",
+                    "selector": "div.pane"
+                }
+            }
+        },
+        "galleryUrl": "http://hentaidrive.com/{idCode:}",
+        "gid": 0,
+        "index": 0,
+        "indexRule": {
+            "cover": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "div.thumbnail-archive img"
+            },
+            "idCode": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "hentaidrive.com/(.*)",
+                "selector": "div.thumbnail-archive>a"
+            },
+            "item": {
+                "selector": "article.item-list"
+            },
+            "tagRule": {
+                "item": {
+                    "selector": ".post-cats>a"
+                },
+                "title": {
+                    "fun": "text",
+                    "selector": "this"
+                },
+                "url": {
+                    "fun": "attr",
+                    "param": "href",
+                    "regex": "(.*)",
+                    "replacement": "$1/page/{page:1}/",
+                    "selector": "this"
+                }
+            },
+            "title": {
+                "fun": "text",
+                "selector": "div.entry>.post-box-title>a"
+            }
+        },
+        "indexUrl": "http://hentaidrive.com/hentai/episodes/new-release/page/{page:1}/",
+        "isGrid": false,
+        "loginUrl": "http://hentaidrive.com/wp-login.php",
+        "searchUrl": "http://hentaidrive.com/page/{page:1}/?s={keyword:}",
+        "sid": 70,
+        "title": "Hentai Play",
+        "versionCode": 0
+    }
