@@ -1,0 +1,80 @@
+﻿{
+    "categories": [{
+        "cid": 1,
+        "title": "首页",
+        "url": "https://96xxzfl.com/page/{page:1}.html"
+    }, {
+        "cid": 1,
+        "title": "推女郎",
+        "url": "https://96xxzfl.com/tuinvlang/list_1_{page:1}.html"
+    },{
+        "cid": 1,
+        "title": "美媛馆",
+        "url": "https://96xxzfl.com/meiyuanguan/list_2_{page:1}.html"
+    },{
+        "cid": 1,
+        "title": "尤果网",
+        "url": "https://96xxzfl.com/youguowang/list_3_{page:1}.html"
+    },{
+        "cid": 1,
+        "title": "AISS爱丝",
+        "url": "https://96xxzfl.com/AISSaisi/list_9_{page:1}.html"
+    },{
+        "cid": 1,
+        "title": "魅妍社",
+        "url": "https://96xxzfl.com/meiyanshe/list_13_{page:1}.html"
+    },{
+        "cid": 1,
+        "title": "撸一撸",
+        "url": "https://96xxzfl.com/luyilu/list_5_{page:1}.html"
+    }],
+    "disableHProxy": false,
+    "flag": "noRating|preloadGallery|waterfallAsGrid",
+    "galleryUrl": "https://96xxzfl.com/{idCode:}{pageStr:_{page:1}}.html",
+    "searchUrl": "https://96xxzfl.com/plus/search.php?keyword={keyword:}&searchtype=titlekeyword&channeltype=0&orderby=&kwtype=0&pagesize=10&typeid=0&TotalResult=77&PageNo={page:1}",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": "div.content > article.article-content p"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            }
+        }
+    },
+    "gid": 2,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "p.focus > a > span > span > img"
+        },
+
+        "idCode": {
+            "selector": "header > h2 > a",
+            "fun": "attr",
+            "param": "href",
+            "regex": "\\/([\\w,\\d,\\/]+).htm"
+        },
+        "item": {
+            "selector": "div.content > article.excerpt"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "header > h2 > a"
+        }
+    },
+    "indexUrl": "https://96xxzfl.com/page/{page:1}.html",
+    "isGrid": false,
+    "sid": 28,
+    "title": "宅福利",
+    "versionCode": 4
+}

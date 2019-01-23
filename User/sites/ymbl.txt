@@ -1,0 +1,109 @@
+{
+    "categories": [{
+        "cid": 1,
+        "title": "亚洲",
+        "url": "http://www.nfsz22.pw/ffnw_7_{page:1}.asp"
+    }, {
+        "cid": 1,
+        "title": "欧美",
+        "url": "http://www.nfsz22.pw/ffnw_8_{page:1}.asp"
+    }, {
+        "cid": 1,
+        "title": "美腿丝袜",
+        "url": "http://www.nfsz22.pw/ffnw_9_{page:1}.asp"
+    }, {
+        "cid": 1,
+        "title": "清纯优美",
+        "url": "http://www.nfsz22.pw/ffnw_10_{page:1}.asp"
+    }, {
+        "cid": 1,
+        "title": "熟女乱伦",
+        "url": "http://www.nfsz22.pw/ffnw_11_{page:1}.asp"
+    }, {
+        "cid": 1,
+        "title": "卡通动漫",
+        "url": "http://www.nfsz22.pw/ffnw_12_{page:1}.asp"
+    }, {
+        "cid": 1,
+        "title": "变态另类",
+        "url": "http://www.nfsz22.pw/ffnw_13_{page:1}.asp"
+    }, {
+        "cid": 1,
+        "title": "自拍偷拍",
+        "url": "http://www.nfsz22.pw/ffnw_6_{page:1}.asp"
+    }, {
+        "cid": 1,
+        "title": "邪恶内涵",
+        "url": "http://www.nfsz22.pw/ffnw_57_{page:1}.asp"
+    }, {
+        "cid": 1,
+        "title": "色系军团",
+        "url": "http://www.nfsz22.pw/ffnw_59_{page:1}.asp"
+    }, {
+        "cid": 1,
+        "title": "嘻哈军团",
+        "url": "http://www.nfsz22.pw/ffnw_60_{page:1}.asp"
+    }, {
+        "cid": 1,
+        "title": "乐张不入",
+        "url": "http://www.nfsz22.pw/ffnw_61_{page:1}.asp"
+    }, {
+        "cid": 1,
+        "title": "色小组",
+        "url": "http://www.nfsz22.pw/ffnw_62_{page:1}.asp"
+    }, {
+        "cid": 1,
+        "title": "棒棒冰",
+        "url": "http://www.nfsz22.pw/ffnw_63_{page:1}.asp"
+    }, {
+        "cid": 1,
+        "title": "微信涵图",
+        "url": "http://www.nfsz22.pw/ffnw_58_{page:1}.asp"
+    }],
+    "disableHProxy": false,
+    "flag": "noRating|preloadGallery|waterfallAsGrid",
+    "galleryUrl": "http://www.nfsz22.pw{idCode:}",
+    "galleryRule": {
+        "tags": {
+            "fun": "html",
+            "selector": "div#taglist table tr td:eq(1) div a"
+        },
+        "pictureRule": {
+            "item": {
+                "selector": "div.content img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            }
+        }
+    },
+    "gid": 2,
+    "index": 0,
+    "indexRule": {
+        "idCode": {
+            "selector": "a",
+            "fun": "attr",
+            "param": "href"
+        },
+        "item": {
+            "selector": "div.list > ul > li >a "
+        },
+        "title": {
+            "fun": "text",
+            "selector": "a"
+        }
+    },
+    "indexUrl": "http://www.nfsz22.pw/ffnw_7_{page:1}.asp",
+    "searchUrl": "http://www.nfsz22.pw/search?t=1&p={page:1}&q={keyword:}",
+    "isGrid": false,
+    "sid": 28,
+    "title": "淫魔部落",
+    "versionCode": 4
+}

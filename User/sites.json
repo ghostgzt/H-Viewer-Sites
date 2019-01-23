@@ -1,0 +1,32 @@
+[
+    {
+        "cid": 1,
+        "title": "用户规则",
+        "english": "",
+        "r18": false,
+        "sites": [
+            {
+                "sid": 101,
+                "title": "淫魔部落",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/E-shuushuu.png",
+                "description": "",
+                "json": "https://raw.githubusercontent.com/ghostgzt/H-Viewer-Sites/master/User/sites/ymbl.txt",
+                "versionCode": 3,
+                "lastUpdate": "",
+                "r18": false
+            },
+            {
+                "sid": 101,
+                "title": "宅福利",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/E-shuushuu.png",
+                "description": "",
+                "json": "https://raw.githubusercontent.com/ghostgzt/H-Viewer-Sites/master/User/sites/zfl.txt",
+                "versionCode": 3,
+                "lastUpdate": "",
+                "r18": false
+            }
+        ]
+    }
+]
