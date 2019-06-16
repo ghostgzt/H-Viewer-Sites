@@ -26,6 +26,28 @@
                 "versionCode": 3,
                 "lastUpdate": "",
                 "r18": false
+            },
+            {
+                "sid": 101,
+                "title": "177漫画-改",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/E-shuushuu.png",
+                "description": "",
+                "json": "https://raw.githubusercontent.com/ghostgzt/H-Viewer-Sites/master/User/sites/177mhg.txt",
+                "versionCode": 3,
+                "lastUpdate": "",
+                "r18": false
+            },
+            {
+                "sid": 101,
+                "title": "松鼠症仓库改",
+                "author": "PureDark",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/icons/E-shuushuu.png",
+                "description": "",
+                "json": "https://raw.githubusercontent.com/ghostgzt/H-Viewer-Sites/master/User/sites/sszckg.txt",
+                "versionCode": 3,
+                "lastUpdate": "",
+                "r18": false
             }
         ]
     }
